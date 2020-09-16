@@ -1,6 +1,6 @@
 {
-  "name": "leantony/laravel-grid",
-  "description": "A grid view for laravel, inspired by the yii2 grid widget",
+  "name": "lan-gustav/laravel-grid",
+  "description": "A grid view for laravel, inspired by the yii2 grid widget. Forked from leantony/laravel-grid",
   "license": "MIT",
   "type": "library",
   "keywords": [
