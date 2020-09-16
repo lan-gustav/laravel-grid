@@ -132,7 +132,8 @@ class RowFilterHandler
             call_user_func($filter['query'], $this->getQuery(), $columnName, $userInput);
         } else {
 
-            if ($operator === strtolower('like')) {
+            if (strtolower($operator) === 'like') {
+                $operator = 'ilike';
                 $value = '%' . $userInput . '%';
             } else {
                 $value = $userInput;
